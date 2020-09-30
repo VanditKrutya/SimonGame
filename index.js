@@ -40,4 +40,15 @@ function playSound(name) {
 }
 
 
+// Edit By VivekKumar
+
+
+function animatePress(currentColor) {
+
+  $("#" + currentColor).addClass("pressed");
+
+  setTimeout(function () {
+      $("#" + currentColor).removeClass("pressed");
+  }, 100);
+}
 
